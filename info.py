@@ -55,9 +55,8 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002023191399'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Mintoo: Mintoo@cluster0.1w1od.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ankur:Ankur@cluster0.oaux8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluter0')
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'sharedisklinks.com'))
